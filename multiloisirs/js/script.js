@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Reveal-on-scroll animations
   const revealTargets = document.querySelectorAll(
-    '.activity-card, .price-card, .testimonial-card, .why-item, .ambiance-tile'
+    '.activity-row, .ticket, .testimonial-card, .why-item, .ambiance-tile'
   );
   revealTargets.forEach(el => el.setAttribute('data-reveal', ''));
 
